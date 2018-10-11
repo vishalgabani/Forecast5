@@ -16,6 +16,7 @@
 		79612C2A216F5492001F1FC2 /* VGHTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79612C29216F5492001F1FC2 /* VGHTTPClient.swift */; };
 		79612C2D216F5547001F1FC2 /* VGWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79612C2C216F5547001F1FC2 /* VGWeather.swift */; };
 		79612C2F216F5754001F1FC2 /* VGDebugLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79612C2E216F5753001F1FC2 /* VGDebugLog.swift */; };
+		79612C32216F7818001F1FC2 /* VGTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79612C31216F7818001F1FC2 /* VGTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		79612C29216F5492001F1FC2 /* VGHTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGHTTPClient.swift; sourceTree = "<group>"; };
 		79612C2C216F5547001F1FC2 /* VGWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGWeather.swift; sourceTree = "<group>"; };
 		79612C2E216F5753001F1FC2 /* VGDebugLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGDebugLog.swift; sourceTree = "<group>"; };
+		79612C31216F7818001F1FC2 /* VGTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VGTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				79612C15216F50EA001F1FC2 /* Classes */,
 				79612C2B216F5511001F1FC2 /* Model */,
 				79612C18216F50EA001F1FC2 /* Resources */,
+				79612C30216F780E001F1FC2 /* TableCell */,
 				79612C26216F5123001F1FC2 /* Utility */,
 				79612C1B216F50EA001F1FC2 /* View */,
 			);
@@ -114,6 +117,14 @@
 				79612C2C216F5547001F1FC2 /* VGWeather.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		79612C30216F780E001F1FC2 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				79612C31216F7818001F1FC2 /* VGTableCell.swift */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			files = (
 				79612C21216F50EA001F1FC2 /* AppDelegate.swift in Sources */,
 				79612C2F216F5754001F1FC2 /* VGDebugLog.swift in Sources */,
+				79612C32216F7818001F1FC2 /* VGTableCell.swift in Sources */,
 				79612C2D216F5547001F1FC2 /* VGWeather.swift in Sources */,
 				79612C2A216F5492001F1FC2 /* VGHTTPClient.swift in Sources */,
 				79612C20216F50EA001F1FC2 /* VGMainViewController.swift in Sources */,

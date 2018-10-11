@@ -11,5 +11,10 @@ import Foundation
 struct VGConstant {
     
     //API URL
-    static let API_URL           =   "https://samples.openweathermap.org/data/2.5/forecast?lat=%@&lon=%@&appid=b6907d289e10d714a6e88b30761fae22"
+    static let API_URL          =   "https://samples.openweathermap.org/data/2.5/forecast?lat=%f&lon=%f&appid=dccde82462498173f4ff243db9582de0"
+    
+    static let FETCH_LOCATION   =   "Fetching your location..."
+    static let FETCH_DATA       =   "Fetching weather data..."
+    
+    static let TABLE_CELL       =   "VGTableCell"
 }
